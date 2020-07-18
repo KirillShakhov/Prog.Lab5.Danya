@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2568.61875" y="696.0">lab.commands.ExitCommand</node>
+    <node x="1410.7832418913886" y="208.0">lab.commands.ICommand</node>
+    <node x="870.0" y="945.0">lab.commands.HistoryCommand</node>
+    <node x="1865.61875" y="945.0">lab.commands.AddCommand</node>
+    <node x="2414.61875" y="696.0">lab.commands.ClearCommand</node>
+    <node x="1357.6832418913887" y="427.0">lab.commands.Command</node>
+    <node x="659.0000000000001" y="945.0">lab.commands.ExecuteScriptCommand</node>
+    <node x="65.85799679334968" y="0.0">lab.classes.MusicGenre</node>
+    <node x="344.0000000000001" y="945.0">lab.commands.ReorderCommand</node>
+    <node x="1185.0354166666666" y="208.0">lab.BD</node>
+    <node x="197.0" y="945.0">lab.commands.HelpCommand</node>
+    <node x="2715.61875" y="696.0">lab.commands.RemoveByIdCommand</node>
+    <node x="205.85799679334968" y="0.0">lab.classes.Coordinates</node>
+    <node x="2166.61875" y="945.0">lab.commands.CountGreaterThanBestAlbum</node>
+    <node x="284.83021901557186" y="119.0">lab.classes.MusicBand</node>
+    <node x="1162.7020833333336" y="0.0">lab.commands.YesOrNoCommand</node>
+    <node x="0.0" y="945.0">lab.commands.RemoveLowerCommand</node>
+    <node x="0.0" y="1178.0">lab.exceptions.AddException</node>
+    <node x="1048.61875" y="945.0">lab.commands.SaveCommand</node>
+    <node x="923.3225801266829" y="696.0">lab.Console</node>
+    <node x="512.0000000000001" y="945.0">lab.commands.InfoCommand</node>
+    <node x="652.3486111111113" y="0.0">lab.classes.Album</node>
+    <node x="1718.61875" y="945.0">lab.commands.ShowCommand</node>
+    <node x="1377.2212343129333" y="1104.0">lab.Main</node>
+    <node x="1442.61875" y="945.0">lab.commands.RemoveAllByDescriptionCommand</node>
+    <node x="1195.61875" y="945.0">lab.commands.FilterContainsNameCommand</node>
+    <node x="2005.61875" y="945.0">lab.commands.UpdateCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab.commands.FilterContainsNameCommand" target="lab.Console">
+      <point x="-85.125" y="-14.5" />
+      <point x="1223.99375" y="865.0" />
+      <point x="987.6350801266829" y="865.0" />
+      <point x="15.3125" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.ShowCommand">
+      <point x="5.7000000000000455" y="-14.5" />
+      <point x="1420.9212343129334" y="1004.0" />
+      <point x="1782.11875" y="1004.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.classes.MusicBand" target="lab.classes.Album">
+      <point x="24.888888888888914" y="-14.5" />
+      <point x="365.71910790446077" y="59.0" />
+      <point x="694.3486111111113" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.FilterContainsNameCommand" target="lab.BD">
+      <point x="-28.375" y="-14.5" />
+      <point x="1280.74375" y="915.0" />
+      <point x="1237.3699777156623" y="915.0" />
+      <point x="1237.3699777156623" y="397.0" />
+      <point x="1214.74375" y="397.0" />
+      <point x="-1.2916666666667425" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.RemoveLowerCommand">
+      <point x="-36.09999999999991" y="-14.5" />
+      <point x="1379.1212343129334" y="1084.0" />
+      <point x="88.5" y="1084.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.CountGreaterThanBestAlbum" target="lab.Console">
+      <point x="-90.79999999999995" y="-14.5" />
+      <point x="2189.31875" y="765.0" />
+      <point x="1018.2600801266829" y="765.0" />
+      <point x="45.9375" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.RemoveByIdCommand">
+      <point x="32.299999999999955" y="-14.5" />
+      <point x="1447.5212343129333" y="1074.0" />
+      <point x="2800.61875" y="1074.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.UpdateCommand" target="lab.Console">
+      <point x="-52.875" y="-14.5" />
+      <point x="2023.24375" y="785.0" />
+      <point x="1012.1350801266829" y="785.0" />
+      <point x="39.8125" y="14.5" />
+    </edge>
+    <edge source="lab.commands.CountGreaterThanBestAlbum" target="lab.BD">
+      <point x="45.40000000000009" y="-14.5" />
+      <point x="2325.51875" y="925.0" />
+      <point x="2298.2821133326215" y="925.0" />
+      <point x="2298.2821133326215" y="307.0" />
+      <point x="1232.8270833333336" y="307.0" />
+      <point x="16.791666666666742" y="14.5" />
+    </edge>
+    <edge source="lab.commands.InfoCommand" target="lab.commands.Command">
+      <point x="-15.875" y="-14.5" />
+      <point x="559.6250000000001" y="825.0" />
+      <point x="610.478830126683" y="825.0" />
+      <point x="610.478830126683" y="576.0" />
+      <point x="1376.4185360090357" y="576.0" />
+      <point x="-30.264705882352928" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ShowCommand" target="lab.commands.Command">
+      <point x="-15.875" y="-14.5" />
+      <point x="1766.24375" y="835.0" />
+      <point x="1711.8111541862504" y="835.0" />
+      <point x="1711.8111541862504" y="636.0" />
+      <point x="1416.7714771855062" y="636.0" />
+      <point x="10.088235294117567" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ReorderCommand" target="lab.Console">
+      <point x="55.5" y="-14.5" />
+      <point x="473.5000000000001" y="865.0" />
+      <point x="938.6350801266829" y="865.0" />
+      <point x="-33.6875" y="14.5" />
+    </edge>
+    <edge source="lab.commands.Command" target="lab.BD">
+      <point x="-19.59999999999991" y="-14.5" />
+      <point x="1387.0832418913888" y="377.0" />
+      <point x="1219.9104166666666" y="377.0" />
+      <point x="3.875" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ReorderCommand" target="lab.BD">
+      <point x="-55.5" y="-14.5" />
+      <point x="362.5000000000001" y="825.0" />
+      <point x="306.47883012668296" y="825.0" />
+      <point x="306.47883012668296" y="327.0" />
+      <point x="1191.49375" y="327.0" />
+      <point x="-24.541666666666742" y="14.5" />
+    </edge>
+    <edge source="lab.commands.YesOrNoCommand" target="lab.commands.Command">
+      <point x="21.14285714285711" y="14.5" />
+      <point x="1257.8449404761905" y="99.0" />
+      <point x="1389.2832418913886" y="99.0" />
+      <point x="1389.2832418913886" y="367.0" />
+      <point x="1406.6832418913887" y="367.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveAllByDescriptionCommand" target="lab.Console">
+      <point x="-96.0" y="-14.5" />
+      <point x="1474.61875" y="855.0" />
+      <point x="993.7600801266829" y="855.0" />
+      <point x="21.4375" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.SaveCommand">
+      <point x="-5.7000000000000455" y="-14.5" />
+      <point x="1409.5212343129333" y="1004.0" />
+      <point x="1112.11875" y="1004.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExecuteScriptCommand" target="lab.commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="754.5000000000001" y="835.0" />
+      <point x="800.478830126683" y="835.0" />
+      <point x="800.478830126683" y="606.0" />
+      <point x="1385.0655948325652" y="606.0" />
+      <point x="-21.617647058823422" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveLowerCommand" target="lab.commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="88.5" y="825.0" />
+      <point x="146.6788301266829" y="825.0" />
+      <point x="146.6788301266829" y="516.0" />
+      <point x="1359.124418361977" y="516.0" />
+      <point x="-47.55882352941171" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.UpdateCommand">
+      <point x="13.299999999999955" y="-14.5" />
+      <point x="1428.5212343129333" y="1024.0" />
+      <point x="2076.11875" y="1024.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HelpCommand" target="lab.BD">
+      <point x="-47.625" y="-14.5" />
+      <point x="212.875" y="815.0" />
+      <point x="135.6788301266829" y="815.0" />
+      <point x="135.6788301266829" y="317.0" />
+      <point x="1188.9104166666666" y="317.0" />
+      <point x="-27.125" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.ExecuteScriptCommand">
+      <point x="-20.899999999999864" y="-14.5" />
+      <point x="1394.3212343129335" y="1044.0" />
+      <point x="754.5000000000001" y="1044.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Console" target="lab.commands.Command">
+      <point x="43.55555555555566" y="-14.5" />
+      <point x="1015.8781356822385" y="626.0" />
+      <point x="1390.8303007149182" y="626.0" />
+      <point x="-15.852941176470495" y="14.5" />
+    </edge>
+    <edge source="lab.classes.MusicBand" target="lab.classes.MusicGenre">
+      <point x="-37.33333333333326" y="-14.5" />
+      <point x="303.4968856822386" y="89.0" />
+      <point x="155.85799679334968" y="89.0" />
+      <point x="30.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.SaveCommand" target="lab.BD">
+      <point x="-15.875" y="-14.5" />
+      <point x="1096.24375" y="875.0" />
+      <point x="1045.28125" y="875.0" />
+      <point x="1045.28125" y="407.0" />
+      <point x="1212.1604166666666" y="407.0" />
+      <point x="-3.875" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExitCommand" target="lab.commands.Command">
+      <point x="-47.625" y="-14.5" />
+      <point x="2584.49375" y="536.0" />
+      <point x="1445.5950065972709" y="536.0" />
+      <point x="38.911764705882206" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HelpCommand" target="lab.Console">
+      <point x="47.625" y="-14.5" />
+      <point x="308.125" y="855.0" />
+      <point x="932.5100801266829" y="855.0" />
+      <point x="-39.8125" y="14.5" />
+    </edge>
+    <edge source="lab.commands.YesOrNoCommand" target="lab.BD">
+      <point x="0.0" y="14.5" />
+      <point x="20.666666666666742" y="-14.5" />
+    </edge>
+    <edge source="lab.classes.MusicBand" target="lab.Console">
+      <point x="-22.40000000000009" y="14.5" />
+      <point x="318.43021901557177" y="188.0" />
+      <point x="58.50833333333321" y="188.0" />
+      <point x="58.50833333333321" y="506.0" />
+      <point x="928.7670245711272" y="506.0" />
+      <point x="-43.55555555555566" y="-14.5" />
+    </edge>
+    <edge source="lab.commands.ClearCommand" target="lab.commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="2481.61875" y="546.0" />
+      <point x="1442.7126536560945" y="546.0" />
+      <point x="36.029411764705856" y="14.5" />
+    </edge>
+    <edge source="lab.commands.AddCommand" target="lab.commands.Command">
+      <point x="-15.0" y="-14.5" />
+      <point x="1910.61875" y="805.0" />
+      <point x="1833.4876247744858" y="805.0" />
+      <point x="1833.4876247744858" y="616.0" />
+      <point x="1422.5361830678592" y="616.0" />
+      <point x="15.852941176470495" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.ClearCommand">
+      <point x="24.700000000000045" y="-14.5" />
+      <point x="1439.9212343129334" y="1054.0" />
+      <point x="2481.61875" y="1054.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.AddCommand">
+      <point x="9.5" y="-14.5" />
+      <point x="1424.7212343129333" y="1014.0" />
+      <point x="1925.61875" y="1014.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.AddCommand" target="lab.Console">
+      <point x="-45.0" y="-14.5" />
+      <point x="1880.61875" y="815.0" />
+      <point x="1006.0100801266829" y="815.0" />
+      <point x="33.6875" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveByIdCommand" target="lab.commands.Command">
+      <point x="-56.666666666666515" y="-14.5" />
+      <point x="2743.9520833333336" y="516.0" />
+      <point x="1451.359712479624" y="516.0" />
+      <point x="44.67647058823536" y="14.5" />
+    </edge>
+    <edge source="lab.commands.FilterContainsNameCommand" target="lab.commands.Command">
+      <point x="28.375" y="-14.5" />
+      <point x="1337.49375" y="925.0" />
+      <point x="1360.5826035287" y="925.0" />
+      <point x="1360.5826035287" y="676.0" />
+      <point x="1405.2420654208004" y="676.0" />
+      <point x="-1.4411764705882888" y="14.5" />
+    </edge>
+    <edge source="lab.commands.UpdateCommand" target="lab.BD">
+      <point x="52.875" y="-14.5" />
+      <point x="2128.99375" y="925.0" />
+      <point x="2209.1111541862506" y="925.0" />
+      <point x="2209.1111541862506" y="317.0" />
+      <point x="1230.24375" y="317.0" />
+      <point x="14.208333333333258" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HistoryCommand" target="lab.BD">
+      <point x="-55.5" y="-14.5" />
+      <point x="888.5" y="795.0" />
+      <point x="621.478830126683" y="795.0" />
+      <point x="621.478830126683" y="357.0" />
+      <point x="1199.24375" y="357.0" />
+      <point x="-16.791666666666742" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveAllByDescriptionCommand" target="lab.commands.Command">
+      <point x="-32.0" y="-14.5" />
+      <point x="1538.61875" y="925.0" />
+      <point x="1560.3987799992883" y="925.0" />
+      <point x="1560.3987799992883" y="656.0" />
+      <point x="1411.0067713031533" y="656.0" />
+      <point x="4.323529411764639" y="14.5" />
+    </edge>
+    <edge source="lab.Console" target="lab.commands.YesOrNoCommand">
+      <point x="-21.77777777777783" y="-14.5" />
+      <point x="950.544802348905" y="486.0" />
+      <point x="546.8607745711274" y="486.0" />
+      <point x="546.8607745711274" y="99.0" />
+      <point x="1215.5592261904762" y="99.0" />
+      <point x="-21.14285714285711" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExecuteScriptCommand" target="lab.Console">
+      <point x="38.200000000000045" y="-14.5" />
+      <point x="792.7000000000002" y="885.0" />
+      <point x="950.8850801266829" y="885.0" />
+      <point x="-21.4375" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExitCommand" target="lab.commands.YesOrNoCommand">
+      <point x="47.625" y="-14.5" />
+      <point x="2679.74375" y="676.0" />
+      <point x="2709.528830126683" y="676.0" />
+      <point x="2709.528830126683" y="79.0" />
+      <point x="1300.1306547619047" y="79.0" />
+      <point x="63.42857142857133" y="14.5" />
+    </edge>
+    <edge source="lab.commands.InfoCommand" target="lab.Console">
+      <point x="47.625" y="-14.5" />
+      <point x="623.1250000000001" y="875.0" />
+      <point x="944.7600801266829" y="875.0" />
+      <point x="-27.5625" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveLowerCommand" target="lab.Console">
+      <point x="70.80000000000018" y="-14.5" />
+      <point x="159.30000000000018" y="845.0" />
+      <point x="926.3850801266829" y="845.0" />
+      <point x="-45.9375" y="14.5" />
+    </edge>
+    <edge source="lab.classes.MusicBand" target="lab.commands.YesOrNoCommand">
+      <point x="49.77777777777783" y="-14.5" />
+      <point x="390.6079967933497" y="79.0" />
+      <point x="1173.273511904762" y="79.0" />
+      <point x="-63.42857142857133" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HistoryCommand" target="lab.Console">
+      <point x="-18.5" y="-14.5" />
+      <point x="925.5" y="905.0" />
+      <point x="963.1350801266829" y="905.0" />
+      <point x="-9.1875" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ShowCommand" target="lab.Console">
+      <point x="-47.625" y="-14.5" />
+      <point x="1734.49375" y="845.0" />
+      <point x="999.8850801266829" y="845.0" />
+      <point x="27.5625" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ReorderCommand" target="lab.commands.Command">
+      <point x="18.5" y="-14.5" />
+      <point x="436.5000000000001" y="835.0" />
+      <point x="474.97883012668296" y="835.0" />
+      <point x="474.97883012668296" y="566.0" />
+      <point x="1373.5361830678592" y="566.0" />
+      <point x="-33.147058823529505" y="14.5" />
+    </edge>
+    <edge source="lab.classes.MusicBand" target="lab.classes.Coordinates">
+      <point x="-12.444444444444343" y="-14.5" />
+      <point x="328.3857745711275" y="69.0" />
+      <point x="269.3579967933497" y="69.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.InfoCommand" target="lab.BD">
+      <point x="-47.625" y="-14.5" />
+      <point x="527.8750000000001" y="815.0" />
+      <point x="386.54133012668296" y="815.0" />
+      <point x="386.54133012668296" y="337.0" />
+      <point x="1194.0770833333336" y="337.0" />
+      <point x="-21.958333333333258" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.CountGreaterThanBestAlbum">
+      <point x="17.09999999999991" y="-14.5" />
+      <point x="1432.3212343129333" y="1034.0" />
+      <point x="2280.11875" y="1034.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.CountGreaterThanBestAlbum" target="lab.commands.Command">
+      <point x="0.0" y="-14.5" />
+      <point x="2280.11875" y="745.0" />
+      <point x="2198.1111541862506" y="745.0" />
+      <point x="2198.1111541862506" y="566.0" />
+      <point x="1436.9479477737416" y="566.0" />
+      <point x="30.264705882352928" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ShowCommand" target="lab.BD">
+      <point x="47.625" y="-14.5" />
+      <point x="1829.74375" y="925.0" />
+      <point x="1937.3736541862504" y="925.0" />
+      <point x="1937.3736541862504" y="337.0" />
+      <point x="1225.0770833333336" y="337.0" />
+      <point x="9.041666666666742" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.Console">
+      <point x="-9.5" y="-14.5" />
+      <point x="1405.7212343129333" y="1014.0" />
+      <point x="1032.3" y="1014.0" />
+      <point x="1032.3" y="895.0" />
+      <point x="975.3850801266829" y="895.0" />
+      <point x="3.0625" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExecuteScriptCommand" target="lab.BD">
+      <point x="-76.39999999999986" y="-14.5" />
+      <point x="678.1000000000003" y="805.0" />
+      <point x="463.97883012668296" y="805.0" />
+      <point x="463.97883012668296" y="347.0" />
+      <point x="1196.6604166666666" y="347.0" />
+      <point x="-19.375" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.InfoCommand">
+      <point x="-24.700000000000045" y="-14.5" />
+      <point x="1390.5212343129333" y="1054.0" />
+      <point x="575.5000000000001" y="1054.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.HistoryCommand">
+      <point x="-17.09999999999991" y="-14.5" />
+      <point x="1398.1212343129334" y="1034.0" />
+      <point x="944.0" y="1034.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.FilterContainsNameCommand">
+      <point x="-1.900000000000091" y="-14.5" />
+      <point x="1413.3212343129333" y="994.0" />
+      <point x="1309.11875" y="994.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveLowerCommand" target="lab.BD">
+      <point x="-35.40000000000009" y="-14.5" />
+      <point x="53.09999999999991" y="925.0" />
+      <point x="69.50833333333321" y="925.0" />
+      <point x="69.50833333333321" y="307.0" />
+      <point x="1186.3270833333336" y="307.0" />
+      <point x="-29.708333333333258" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HelpCommand" target="lab.commands.Command">
+      <point x="-15.875" y="-14.5" />
+      <point x="244.625" y="835.0" />
+      <point x="246.0661764705883" y="835.0" />
+      <point x="246.0661764705883" y="536.0" />
+      <point x="1364.8891242443299" y="536.0" />
+      <point x="-41.79411764705878" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ExitCommand" target="lab.BD">
+      <point x="15.875" y="-14.5" />
+      <point x="2647.99375" y="676.0" />
+      <point x="2658.36875" y="676.0" />
+      <point x="2658.36875" y="277.0" />
+      <point x="1240.5770833333336" y="277.0" />
+      <point x="24.541666666666742" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.HelpCommand">
+      <point x="-32.299999999999955" y="-14.5" />
+      <point x="1382.9212343129334" y="1074.0" />
+      <point x="260.5" y="1074.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.SaveCommand" target="lab.commands.Command">
+      <point x="15.875" y="-14.5" />
+      <point x="1127.99375" y="925.0" />
+      <point x="1123.9349264705882" y="925.0" />
+      <point x="1123.9349264705882" y="656.0" />
+      <point x="1399.4773595384474" y="656.0" />
+      <point x="-7.205882352941217" y="14.5" />
+    </edge>
+    <edge source="lab.commands.Command" target="lab.commands.ICommand">
+      <point x="39.200000000000045" y="-14.5" />
+      <point x="1445.8832418913887" y="407.0" />
+      <point x="1463.2832418913886" y="407.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.BD">
+      <point x="36.09999999999991" y="-14.5" />
+      <point x="1451.3212343129333" y="1084.0" />
+      <point x="2896.11875" y="1084.0" />
+      <point x="2896.11875" y="257.0" />
+      <point x="1245.74375" y="257.0" />
+      <point x="29.708333333333258" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.RemoveAllByDescriptionCommand">
+      <point x="1.900000000000091" y="-14.5" />
+      <point x="1417.1212343129334" y="994.0" />
+      <point x="1570.61875" y="994.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.ReorderCommand">
+      <point x="-28.5" y="-14.5" />
+      <point x="1386.7212343129333" y="1064.0" />
+      <point x="418.0000000000001" y="1064.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.AddCommand" target="lab.BD">
+      <point x="45.0" y="-14.5" />
+      <point x="1970.61875" y="925.0" />
+      <point x="2020.05625" y="925.0" />
+      <point x="2020.05625" y="327.0" />
+      <point x="1227.6604166666666" y="327.0" />
+      <point x="11.625" y="14.5" />
+    </edge>
+    <edge source="lab.commands.ClearCommand" target="lab.BD">
+      <point x="44.666666666666515" y="-14.5" />
+      <point x="2526.2854166666666" y="287.0" />
+      <point x="1237.99375" y="287.0" />
+      <point x="21.958333333333258" y="14.5" />
+    </edge>
+    <edge source="lab.Main" target="lab.commands.ExitCommand">
+      <point x="28.5" y="-14.5" />
+      <point x="1443.7212343129333" y="1064.0" />
+      <point x="2632.11875" y="1064.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveLowerCommand" target="lab.classes.MusicBand">
+      <point x="-70.80000000000018" y="-14.5" />
+      <point x="17.699999999999818" y="925.0" />
+      <point x="47.50833333333321" y="925.0" />
+      <point x="47.50833333333321" y="178.0" />
+      <point x="296.0302190155719" y="178.0" />
+      <point x="-44.799999999999955" y="14.5" />
+    </edge>
+    <edge source="lab.commands.HistoryCommand" target="lab.commands.Command">
+      <point x="18.5" y="-14.5" />
+      <point x="962.5" y="915.0" />
+      <point x="1031.8225801266829" y="915.0" />
+      <point x="1031.8225801266829" y="636.0" />
+      <point x="1393.7126536560945" y="636.0" />
+      <point x="-12.970588235294144" y="14.5" />
+    </edge>
+    <edge source="lab.commands.CountGreaterThanBestAlbum" target="lab.classes.MusicBand">
+      <point x="90.79999999999984" y="-14.5" />
+      <point x="2370.91875" y="925.0" />
+      <point x="2355.4087343129336" y="925.0" />
+      <point x="2355.4087343129336" y="168.0" />
+      <point x="385.6302190155718" y="168.0" />
+      <point x="44.799999999999955" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveByIdCommand" target="lab.BD">
+      <point x="56.666666666666515" y="-14.5" />
+      <point x="2857.2854166666666" y="676.0" />
+      <point x="2841.7486541862504" y="676.0" />
+      <point x="2841.7486541862504" y="267.0" />
+      <point x="1243.1604166666666" y="267.0" />
+      <point x="27.125" y="14.5" />
+    </edge>
+    <edge source="lab.commands.RemoveAllByDescriptionCommand" target="lab.BD">
+      <point x="96.0" y="-14.5" />
+      <point x="1666.61875" y="915.0" />
+      <point x="1860.8111541862504" y="915.0" />
+      <point x="1860.8111541862504" y="347.0" />
+      <point x="1222.49375" y="347.0" />
+      <point x="6.4583333333332575" y="14.5" />
+    </edge>
+    <edge source="lab.commands.UpdateCommand" target="lab.commands.Command">
+      <point x="17.625" y="-14.5" />
+      <point x="2093.74375" y="925.0" />
+      <point x="2092.302573529412" y="925.0" />
+      <point x="2092.302573529412" y="586.0" />
+      <point x="1431.1832418913887" y="586.0" />
+      <point x="24.5" y="14.5" />
+    </edge>
+    <edge source="lab.BD" target="lab.classes.MusicBand">
+      <point x="0.0" y="-14.5" />
+      <point x="1216.0354166666666" y="178.0" />
+      <point x="363.23021901557195" y="178.0" />
+      <point x="22.40000000000009" y="14.5" />
+    </edge>
+    <edge source="lab.BD" target="lab.Console">
+      <point x="-11.625" y="14.5" />
+      <point x="1204.4104166666666" y="377.0" />
+      <point x="972.3225801266829" y="377.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="lab.commands.SaveCommand" target="lab.Console">
+      <point x="-47.625" y="-14.5" />
+      <point x="1064.49375" y="885.0" />
+      <point x="981.5100801266829" y="885.0" />
+      <point x="9.1875" y="14.5" />
+    </edge>
+    <edge source="lab.Console" target="lab.BD">
+      <point x="21.77777777777783" y="-14.5" />
+      <point x="994.1003579044607" y="506.0" />
+      <point x="1012.2585300645675" y="506.0" />
+      <point x="1012.2585300645675" y="397.0" />
+      <point x="1209.5770833333336" y="397.0" />
+      <point x="-6.4583333333332575" y="14.5" />
+    </edge>
+    <edge source="lab.commands.YesOrNoCommand" target="lab.Console">
+      <point x="-42.28571428571422" y="14.5" />
+      <point x="1194.4163690476194" y="89.0" />
+      <point x="535.9718856822386" y="89.0" />
+      <point x="535.9718856822386" y="496.0" />
+      <point x="939.6559134600161" y="496.0" />
+      <point x="-32.66666666666674" y="-14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="2104.999999999998" y="580.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
