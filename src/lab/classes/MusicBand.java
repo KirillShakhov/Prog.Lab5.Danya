@@ -220,7 +220,7 @@ public class MusicBand implements Comparable<MusicBand> {
                 }
             }
         }
-        //TODO хуй
+        //TODO jjhgjlgogio
         //Сделать проверку person_birthday
         // person_birthday
         //TODO сделать проверку и преобразование в LocalDate(Есть в старых исходникам моей лабы)(нет)
